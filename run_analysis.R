@@ -66,8 +66,8 @@ names(data) <- gsub("Mag", "Magnitude", names(data))
 names(data) <- gsub("BodyBody", "Body", names(data))
 message("OK!")
 
-## 8 - Create a new data set with the average of each variable for each activity and
-## subject
+## 8 - Create a new data set with the average of each variable for each activity 
+## and subject
 
 message("Creating a data set with averaged data...")
 data$SubjectID <- as.factor(data$SubjectID)
@@ -83,7 +83,7 @@ message("OK!")
 
 ## 9 - Remove the unnecessary objects from the workspace
 message("Cleaning the workspace...")
-rm(activity_type, features_names, merge)
+rm(activity_type, features_names, merge, col_names, col_to_select, i, label)
 message("OK!")
 
 ## 10 - Export the averaged data to data.txt

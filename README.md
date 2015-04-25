@@ -8,7 +8,7 @@ The script does the following:
 * reads the training and the test data 
 * merges the training and the test sets to create one data set
 * extracts only the measurements on the mean and standard deviation for each measurement
-* assign descriptive names to activities and columns 
+* assigns descriptive names to activities and columns 
 
 The first "tidy" dataset is saved in the workspace with the name "data".
 
